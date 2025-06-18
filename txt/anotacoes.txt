@@ -1,0 +1,15 @@
+chmod 666 txt/historias.txt
+
+npm install sqlite3
+
+npm init -y
+npm install express cors body-parser sqlite3
+
+node backend/server.js
+
+Configuração GitHub
+git config --global user.name Reh200
+git config --global user.email alinerenata1400@gmail.com
+
+git config --global user.name Aline6002
+git config --global user.email alinerenata6002@gmail.com

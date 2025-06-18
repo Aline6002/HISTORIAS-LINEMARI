@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mini historias - Login / Cadastro</title>
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Mini Wattpad</h1>
+        <div class="form-container">
+            <div class="form-box" id="login-box">
+                <h2>Login</h2>
+                <form id="login-form">
+                    <label for="login-username">Usuário</label>
+                    <input type="text" id="login-username" name="username" required />
+                    
+                    <label for="login-password">Senha</label>
+                    <input type="password" id="login-password" name="password" required />
+                    
+                    <button type="submit">Entrar</button>
+                </form>
+                <p>Não tem uma conta? <a href="#" id="show-register">Cadastre-se</a></p>
+            </div>
+
+            <div class="form-box hidden" id="register-box">
+                <h2>Cadastro</h2>
+                <form id="register-form">
+                    <label for="register-username">Usuário</label>
+                    <input type="text" id="register-username" name="username" required />
+                    
+                    <label for="register-password">Senha</label>
+                    <input type="password" id="register-password" name="password" required />
+                    
+                    <button type="submit">Registrar</button>
+                </form>
+                <p>Já tem uma conta? <a href="#" id="show-login">Faça login</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
